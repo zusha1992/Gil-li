@@ -1,0 +1,43 @@
+@import "../components/main.scss";
+
+.mainDiv {
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 70%;
+  height: 80%;
+  background-color:  #fcf4f4;
+}
+
+.details{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-direction: column;
+    width: 35%;
+    height: 85px;
+    right: 0%;
+    bottom: 0;
+    margin: 45px 0px;
+    font-family: "Almoni Light";
+    font-size: 16pt;
+
+}
+.text{
+    position: absolute;
+    width: 45%;
+    height: 100%;
+    left: 0%;
+    color: black;
+    font-family: "Almoni Light";
+    font-size: 14pt;
+    margin-top: 60px;
+}
+
+.icons{
+  margin-right: 8px;
+  font-size: 14pt;
+  
+}

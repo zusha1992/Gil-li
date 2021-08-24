@@ -1,0 +1,19 @@
+.wrapper {
+  position: absolute;
+  width: 60%;
+  right: 0;
+  top: 0;
+  height: 90%;
+  overflow: auto;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+img {
+  transition: transform 0.2s ease-out;
+  &:hover {
+    transform: scale(0.98);
+  }
+}

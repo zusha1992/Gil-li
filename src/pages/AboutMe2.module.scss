@@ -1,0 +1,28 @@
+.wrapper {
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    margin-left: 20%;
+    margin-top: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+  
+  }
+  
+  .backDrop{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: whitesmoke;
+    opacity: 1 ;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;  
+  }

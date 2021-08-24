@@ -1,0 +1,61 @@
+@import "../main.scss";
+
+.item {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  transition: filter 0.4s ease-out;
+  filter: brightness(1);
+  cursor: pointer;
+  z-index: 1;
+}
+.item:hover {
+  filter: brightness(0.5);
+}
+
+.grid {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 260px;
+  height: 300px;
+}
+
+.itemCover {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  background-color: transparent;
+  transition: background-color 0.4s ease-out;
+  &:hover {
+    background-color: rgba($backgroundColor, 0.9);
+  }
+}
+
+.header {
+  pointer-events: none;
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.8s ease-out;
+  z-index: 3;
+}
+.title {
+  font-family: "Almoni Bold";
+  padding-bottom: 5px;
+  font-size: 14pt;
+  color: black;
+}
+.author {
+  position: relative;
+  font-family: "Almoni Regular";
+  font-size: 12pt;
+  color: rgb(40, 40, 40);
+
+}

@@ -1,0 +1,38 @@
+@import "~react-image-gallery/styles/scss/image-gallery.scss";
+
+
+.mainDiv {
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50%;
+  height: 80%;
+  background-color:  #fcf4f4;
+}
+
+.portraite{
+    position: absolute;
+    width: 35%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    left: 0%;
+    background-color: white;
+    mix-blend-mode: multiply;
+
+}
+.text{
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    right: 0%;
+    color: black;
+    font-family: "Almoni Light";
+    font-size: 14pt;
+    text-align: right;
+    direction: rtl;
+    margin-top: 60px;
+    line-height: 18pt;  
+}
