@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.768ee9ab.chunk.css",
+    "main.js": "/static/js/main.b3ff6299.chunk.js",
+    "main.js.map": "/static/js/main.b3ff6299.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c403a09a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c403a09a.js.map",
+    "static/js/2.b38b7214.chunk.js": "/static/js/2.b38b7214.chunk.js",
+    "static/js/2.b38b7214.chunk.js.map": "/static/js/2.b38b7214.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.768ee9ab.chunk.css.map": "/static/css/main.768ee9ab.chunk.css.map",
+    "static/js/2.b38b7214.chunk.js.LICENSE.txt": "/static/js/2.b38b7214.chunk.js.LICENSE.txt",
+    "static/media/contact.module.scss": "/static/media/almoni-dl-aaa-regular.b0fcdd06.otf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c403a09a.js",
+    "static/js/2.b38b7214.chunk.js",
+    "static/css/main.768ee9ab.chunk.css",
+    "static/js/main.b3ff6299.chunk.js"
+  ]
+}
